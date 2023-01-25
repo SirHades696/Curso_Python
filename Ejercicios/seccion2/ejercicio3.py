@@ -21,5 +21,46 @@ tam_geo = len(lista_geo)
 for path in lista_geo:
     print(path)
 
+# ------------- PARA COMENTAR CODIGO EN Visual Studio Code -----------
+# El texto (codigo) debe estar seleccionado
+# para comentar lineas de codigo en formato multilinea
+# CTRL + SHIFT + a
 
+# Para comentar codigo linea por linea
+# CTRL + K + C
 
+# Para quitar los comentarios de una linea
+# CTRL + K + U
+
+matriz1 = [ [1,2,3],
+            [3,6,8],
+            [7,9,0]
+        ]
+
+matriz2 = [ [6,5,0],
+            [7,7,0],
+            [9,9,0]
+        ]
+
+matriz_r = [[0,0,0],
+            [0,0,0],
+            [0,0,0]
+          ]
+
+for i in range(0,3): # Para recorrer los renglones
+    for j in range(0,3): # para correr las columnas
+        matriz_r[i][j] = matriz1[i][j] + matriz2[i][j]
+
+print(matriz_r)
+# i = 0
+# entramos al primer elemento de la lista
+# j = 0
+# Valor de la matriz = 1 - 0,0
+# j = 1
+# Posicion de la matriz seria 0,1
+# j = 2
+# Posicion de la matriz seria 0,2
+
+# i = 1
+# j = 0
+# posicon 1,0 = 3
