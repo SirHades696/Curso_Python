@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/plugins/categorizador_covid">
+    <file>icon.png</file>
+    <file>trash.png</file>
+    <file>folder.png</file>
+  </qresource>
+</RCC>
